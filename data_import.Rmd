@@ -5,3 +5,17 @@ date: 2024-09-12
 output: html_document
 ---
 
+```{r setup, echo=F, message=FALSE}
+library(tidyverse)
+```
+ 
+import data
+
+
+## import the fas litters csv
+
+```{r}
+library(readr)
+FAS_litters <- read_csv("FAS_litters.csv")
+
+```
